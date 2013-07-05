@@ -1,0 +1,17 @@
+# Latex #
+#########
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.gz
+*.dvi
+*.backup
+
+# Vim #
+#######
+
+*~
+*.swp
+*.swo

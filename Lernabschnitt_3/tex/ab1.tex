@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper,DIV=10,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+\usepackage{fancybox}
+\usepackage{array}	
+ 
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+%
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\ 
+\hline
+\end{tabularx}
+% === HEADER END ===
+\rule{0pt}{3mm} \\
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+%\vspace{1mm}
+{\Large\textsf{\textbf{Rollenspiel}}} & &
+\includegraphics[scale=0.25]{images/rollenspiel}\\  % Logo rechtsbündig
+\hline
+\end{tabularx}
+% === HEADER END ===
+\subsection*{Hintergrund}
+Ob %\marginnote{\includegraphics[scale=0.25]{images/rollenspiel}}
+das Smart Grid wirklich eine gute Sache ist, hängt stark von dem jeweiligen Standpunkt
+verschiedener Interessengruppen ab: Was einige gut finden, halten andere vielleicht für eine
+schlechte Idee! Um einen groben Überblick über die möglichen Sichtweisen zu bekommen,
+sollen drei unterschiedliche Positionen in einem Rollenspiel dargestellt werden.
+\subsection*{Talkshow}
+Stellt euch vor, ihr seid in eine beliebte Talk Show eingeladen, um den Zu\-schau\-ern
+die Meinung eurer Gruppe zum Thema Smart Grid zu erläutern und -- falls nötig -- zu verteidigen. Es schauen sehr viele Menschen zu. Deshalb ist es sehr wichtig, dass ihr überzeugend rüberkommt und eure Widersacher und auch das Publikum überzeugt.
+\subsection*{Ablauf}
+Es werden drei Gruppen gebildet. Jede Gruppe spielt eine erfundene Interessengruppe (z.B. privater Verbraucher, Erzeuger, Softwarehersteller). Alle wichtigen Informationen zur jeweiligen Gruppe stehen auf einem separaten Informationsblatt.
+\subsection*{Ziel}
+Es soll ein Streitgespräch entstehen, in dem jede Gruppe ihre eigenen
+Standpunkte und Argumente vorträgt und denen der anderen Gruppen
+begründet widerspricht. Der Sieger bekommt eine Tafel Schokolade! \\
+\hrule
+\section*{Aufgaben}
+\subsection*{Aufgabe 1}
+Lese \marginnote{\includegraphics[scale=0.25]{images/task}} dir zuerst Deine Ausgangssituation alleine und in Ruhe durch. Überlege dir im Anschluss mit den Mitgliedern deiner Gruppe, welche Argumente für eure Position sprechen. Schreibt euch drei Argumente, die
+Ihr vortragen wollt und die ihr für besonders wichtig haltet, auf. 
+\subsection*{Aufgabe 2}
+Nach der Vorbereitungsphase geht’s los! Jetzt seid Ihr ca. 10 Minuten auf Sendung. Der Moderator stellt euch am Anfang ein paar Fragen, aber ihr dürft und sollt einfach dazwischen quatschen, wenn sich die Argumente
+der anderen nicht mit euren eigenen übereinstimmten.
+\end{document}

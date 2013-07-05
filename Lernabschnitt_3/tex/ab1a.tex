@@ -1,0 +1,79 @@
+\documentclass[11pt,a4paper,DIV=10,parskip=half,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+\columnsep6mm 
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\
+\hline
+\end{tabularx}
+% === HEADER END ===
+
+%
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+{\Large\textsf{\textbf{Gruppe A:} Firma \textit{Alleswisser GmbH \& Co. KG}}} & &
+\includegraphics[scale=0.04]{images/euro}\\ % Logo rechtsbündig
+\hline
+\end{tabularx}
+% === HEADER END ===
+%
+\subsection*{Hintergrund}
+Du bist Manager der privaten Firma \textit{Alleswisser GmbH \& Co. KG}.
+Die Firma von dir und deinen Kollegen ermittelt \marginnote{\footnotesize \textbf{personenbezogene Daten} können einer bestimmten Person zugeordnet werden} personenbezogene Daten und filtert daraus spezielle Informationen (z.B. wann und wie lange bei
+Privatpersonen zu Hause das Licht eingeschaltet ist). Aus diesen
+Informationen erstellt ihr ein spezielles Kundenprofil \marginnote{\footnotesize \textbf{Kundenprofil} enthält Eigenschaften und Verhaltensweisen}und verkauft es
+anschließend gezielt an andere Firmen.
+
+\textbf{Beispiel: }Eine Firma verkauft einen speziellen, wach machenden Energy-
+Tee „Immerwach“. Diese Firma möchte bei euch ganz spezielle Adressen
+einkaufen: und zwar von Leuten, die nachts lange wach sind! An diese
+Adressen soll gezielt Werbung für den Tee geschickt werden.
+\subsection*{Infos}
+\begin{enumerate}
+	\item[•]Die Daten, die ihr verarbeitet, bezieht ihr -- wenn möglich -- von den Netzbetreibern (z.B.
+	Deutsche Telekom)
+	\item[•]Falls ihr Daten braucht, die nicht ganz legal zu bekommen sind, holt
+	ihr euch diese auch schon mal von Informatikstudenten oder
+	anderen Zwischenhändlern. Woher diese die Daten haben,
+	interessiert euch nicht.
+\end{enumerate}
+\subsection*{Eure Position}
+\begin{enumerate}
+	\item[•]Ihr seid \textbf{für} das \textit{Smart Grid}
+\end{enumerate}
+\subsection*{Eure Gründe}
+\begin{enumerate}
+	\item[•]Euer ganzes Geschäft beruht auf dem Handel mit Daten. Gibt es
+	kein \textit{Smart Grid}, seid ihr pleite! Das müsst ihr in der Talk Show
+	verhindern!
+	\item[•] Euer Hauptargument: \glqq Wenn man nichts zu verbergen hat, muss man sich keine Gedanken um den Datenschutz machen!\grqq
+\end{enumerate}
+\end{document}

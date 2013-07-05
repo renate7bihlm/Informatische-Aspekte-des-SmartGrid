@@ -1,12 +1,14 @@
 # Fragebogen zum Video / Smart-Grid
 
+## CoRe Fragen 
+
+
 ##  Was soll gelernt werden?
    * Akteure, Begriffe und wichtige Fakten zum Thema Smart Grid
    * Verflechtungen von Macht und Informationen
    * kritische Auseinandersetzung mit Interviews, Hinterfragung von Aussagen, Erkennen von interessengeleiteten Motiven
    *  Einfluss von macht- und sozialpolitischen Kräften auf die Arbeit einens Informatikers (Smart-Grid) -> Soziotechnische Aspekte bei interessengeleiteten Projekten wie dem SmartGrid  (Anbieter, Verbraucher, Dienstleister und der Staat als politische und regulierende Größe)
 
-#CoRe Fragen
 
 ## Wozu soll es (an dieser Stelle) gelernt werden?
    * Erkenntnis, dass das Smart-Grid zu einem bestimmten oder bestimmte Zwecke  konstruiert wird.

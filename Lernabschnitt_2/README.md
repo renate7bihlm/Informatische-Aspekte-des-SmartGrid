@@ -11,7 +11,8 @@ Woraus besteht das SmartGrid und wie arbeiten die Bestandteile zusammen? Fachinh
   Dabei arbeiten wir die Unterschiede zwischen realem und virtuellem Modell heraus. Anschließend werden die Bestandteile
   des SG wiederholt und deren Funktion und Zusammenhänge herausgearbeitet.  
   (Wichtig: Strom- und Kommunikationsnetz sind zwei verschiedene Bestandteile!)  
-  Denkanstoß: Verbindung Modellierung<->Informatik 
+  Denkanstoß: Verbindung Modellierung<->Informatik  
+  Kurzes zusammenfassendes Video zum SG (3min): http://www.youtube.com/watch?v=iyvAwd4p6ds
   2. Modellieren eines Aspekts des SG mit AGG mit Hilfe der Arbeitsblätter.  
   Diese Phase nimmt den größten Teil des Lernabschnitts ein.
   3. Kurzes Vorstellen der von den SuS erarbeiteten Regeln zur Ergebnissicherung. 

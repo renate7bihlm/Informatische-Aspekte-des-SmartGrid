@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper,DIV=10,parskip=half,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+%
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\ 
+\hline
+\end{tabularx}
+% === HEADER END ===
+\rule{0pt}{3mm} \\
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+{\Large\textsf{\textbf{Gruppe B:} Umweltorganisation \textit{GreenCity e.V.}}} & & \includegraphics[scale=0.04]{images/oeko}\\
+\hline
+\end{tabularx}
+% === HEADER END ===
+%
+\subsection*{Hintergrund}
+Du bist Mitglied der Umweltorganisation \textit{GreenCity e.V.} und vertrittst
+mit deinen Kollegen die Auffassung, dass das Smart Grid notwendig für einen sinnvollen Einsatz von erneuerbaren Energien ist. Somit leistet es einen wichtigen Beitrag zum Klima- und Umeweltschutz. Davon haben alle was!
+
+Außerdem setzt Du dich mit deiner Organisation für den Datenschutz und
+Verbraucherschutz ein. Ihr seid der Meinung, dass \marginnote{\footnotesize \textbf{personenbezogene Daten} können einer bestimmten Person zugeordnet werden}personenbezogene Daten nicht weitergegeben werden dürfen.
+\subsection*{Infos}
+\begin{enumerate}
+	\item[•]Der Nutzen des Smart Grids ist für die Gesellschaft sehr hoch.
+	\item[•]Andererseits werden viele personenbezogene Daten erhoben, die leicht Missbraucht werden können. 
+\end{enumerate}
+\subsection*{Eure Position}
+\begin{enumerate}
+	\item[•]Ihr seid \textbf{für} das \textit{Smart Grid}
+\end{enumerate}
+\subsection*{Eure Gründe}
+\begin{enumerate}
+	\item[•]Ihr wisst, dass erneuerbare Energien sicher sind und zusammen mit einem Smart Grid genug Strom erzeugen.
+	\item[•]Man kann auf Atomstrom verzichten. Der ist ohnehin zu gefährlich, wie man durch 
+	Katastrophen (Tschernobyl, Fukushima) leider erfahren musste. 
+	\item[•] Ihr seht die Sache aber auch skeptisch: \glqq Privatsphäre ist wichtig: Es gibt Sachen, die niemanden etwas angehen!\grqq
+	
+%Weil für das richtig
+%Zusammenspiel der vielen einzelnen Komponenten eine Menge an
+%Daten ausgetauscht werden müssen, seid ihr für hohe
+%Sicherheitsstandards und einen ausgeprägten Datenschutz
+
+\end{enumerate}
+\end{document}

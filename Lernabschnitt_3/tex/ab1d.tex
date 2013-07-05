@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper,DIV=10,parskip=half,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+%
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\ 
+\hline
+\end{tabularx}
+% === HEADER END ===
+\rule{0pt}{3mm} \\
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+{\Large\textsf{\textbf{Gruppe D:} Politische Institution: \textit{BSI}}} & & \includegraphics[scale=0.6]{images/bsi}\\
+\hline
+\end{tabularx}
+% === HEADER END ===
+%
+\subsection*{Hintergrund}
+Du bist Pressesprecher beim\textit{ Bundesamt für Sicherheit in der Informationstechnik (BSI)}. Das BSI ist eine politische Einrichtung, die sich mit Fragen zur IT-Sicherheit in der\marginnote{\footnotesize \textbf{Informationsgesellschaft}:Gesellschaft, in der Informationstechnik eine sehr wichtige Rolle spielt} Informationsgesellschaft beschäftigt. 
+
+Nach Vorgabe der Europäischen Union sollen in Zukunft intelligente Netze (Smart Grids) eine flexiblere und gleichzeitig sichere Energieversorgung ermöglichen.
+
+Aufgrund der Verarbeitung und Zusammenführung \marginnote{\footnotesize \textbf{personenbezogene Daten} können einer bestimmten Person zugeordnet werden} personenbezogener Daten  im Smart Grid ergeben sich hohe Anforderungen an den Datenschutz und die Datensicherheit. Ihr arbeitet an Gesetzen und technischen Vorgaben, die helfen sollen, Hackerangriffe und andere Gefährdungen wie das Eindringen von Viren und Trojaner zu verhindern.
+\subsection*{Eure Position}
+\begin{enumerate}
+	\item[•]Als politische Institution vertretet ihr die Ansichten der derzeitige Bundesregierung. Ihr seid \textbf{für} das Smart Grid - aber es muss sicher sein!
+\end{enumerate}
+\subsection*{Eure Gründe}
+\begin{enumerate}
+	\item[•] Eure Aufgabe ist es die Vorgaben der Bundesregierung und der EU umzusetzen.
+
+\end{enumerate}
+\end{document}

@@ -1,0 +1,66 @@
+\documentclass[11pt,a4paper,DIV=10,parskip=half,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+%
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\ 
+\hline
+\end{tabularx}
+% === HEADER END ===
+\rule{0pt}{3mm} \\
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+{\Large\textsf{\textbf{Gruppe C:} Lobby \textit{Pro Kernenergie}}} & & \includegraphics[scale=0.04]{images/atom}\\
+\hline
+\end{tabularx}
+% === HEADER END ===
+%
+\subsection*{Hintergrund}
+Du bist Mitglied der Atomlobby \marginnote{\footnotesize \textbf{Lobby:} Gruppe, die ein gemeinsames Interesse verfolgt} und vertrittst einen Zusammenschluss
+verschiedener Firmen die Atomkraftwerke betreiben. Ihr verdient damit
+eine Menge Geld und wollt das natürlich auch in Zukunft tun.
+
+Außerdem setzt Du dich mit deiner Organisation für den Datenschutz und
+Verbraucherrechte ein, um in der Öffentlichkeit gut darzustehen.
+\subsection*{Eure Position}
+\begin{enumerate}
+	\item[•]Ihr seid \textbf{gegen} das Smart Grid
+\end{enumerate}
+\subsection*{Eure Gründe}
+\begin{enumerate}
+	\item[•]Ihr behauptet, dass erneuerbare Energien zu unsicher sind und das der Strom knapp wird, wenn das Wetter nicht mitspielt.
+	\item[•]Wenn mit Hilfe des Smart Grids immer mehr erneuerbare Energien
+genutzt werden können, wird weniger Atomstrom genutzt!
+	\item[•] Wenn weniger Atomstrom genutzt wird, verdient ihr weniger Geld.
+Dagegen müsst ihr was unternehmen!
+\end{enumerate}
+\end{document}

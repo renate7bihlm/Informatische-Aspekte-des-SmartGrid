@@ -1,0 +1,68 @@
+\documentclass[11pt,a4paper,DIV=10,BCOR=0mm]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{scrpage2} % pagestyle
+\usepackage{geometry} % Seitenränder
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{marginnote} % Randnotizen
+\usepackage{tabularx} % Tabelle mit spaltentyp 'X' für feste breite
+\usepackage{fancybox}
+\usepackage{array}	
+ 
+% Seitenränder einstellen: marginparwidth wichtig für Randnotizen!
+\geometry{a4paper, top=20mm, left=35mm, right=50mm, bottom=30mm,
+	headsep=10mm, footskip=12mm, marginparwidth=45mm, marginparsep=3mm}
+	
+% Fußzeile
+\pagestyle{scrheadings}
+\ifoot{ \hrule Erstellt am: \today von C. van Heteren-Frese}
+\begin{document}
+\pagenumbering{gobble}
+%
+% === HEADER ====
+\newcolumntype{T}{>{\Large\centering\arraybackslash}X}
+\setlength{\tabcolsep}{3mm} % kein Innenrand bei Spaleten
+\noindent
+\begin{tabularx}{\textwidth}{|l|T|l|}
+\hline
+Datum: & \rule{0pt}{5mm} \textbf{\textsf{Thema: Interessengruppen des Smart Grid}} & Blatt-Nr. \\
+&&\\ 
+\hline
+\end{tabularx}
+% === HEADER END ===
+\rule{0pt}{3mm} \\
+% === HEADER ====
+\setlength{\tabcolsep}{0mm} % kein Innenrand bei Spaleten
+\begin{tabularx}{\linewidth}{lXr}
+%\vspace{1mm}
+{\Large\textsf{\textbf{AB 2 - Video "Datenschutz"}}} & &
+\includegraphics[scale=0.25]{images/task}\\  % Logo rechtsbündig
+\hline
+\end{tabularx}
+% === HEADER END ===
+%
+\subsection*{Aufgaben}
+\begin{enumerate}
+\item Schaue dir das Video an und mache dir zu folgendenPunkten Notizen:
+\begin{enumerate}
+\item Wer wird wo interviewt und worum geht es?
+\item[] Wer:\vspace{1.2cm}
+\item[] Wo:\vspace{1.2cm}
+\item[] Was:\vspace{1.2cm}
+\item Welcher Vorfall wird von dem Unternehmenssprecher angesprochen? Was ist da passiert?
+\vspace{3cm}
+\item Am Ende des Videos geht es kurz um die Angreifbarkeit des Smart Grids. Was
+kann damit gemeint sein? Was könnte man einschleusen, um Schaden
+anzurichten? \vspace{2cm}
+\end{enumerate}
+\item Was könnte man unter einem „gläsernen Menschen“ verstehen?
+\end{enumerate}
+
+\end{document}

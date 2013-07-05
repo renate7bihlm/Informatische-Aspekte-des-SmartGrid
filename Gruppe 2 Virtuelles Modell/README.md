@@ -1,4 +1,4 @@
-# Lernabschnitt 2 Virtuelles Modell mit AGG
+# Lernabschnitt 2 Modellierung mit AGG
 # Unterrichtseinheit Smart Grid (SG)
 
 ## Arbeitsmaterialien:

@@ -1,8 +1,8 @@
-# Rollenspiel / Smart-Grid
+# Talkshow / Smart-Grid
 
 
 
-## CoRe Fragen zur Talkshow
+## CoRe Fragen
 
 ###  Was soll gelernt werden?
 *Die   SuS sollen sich in die Standpunkte der einzelnen Interessengruppen  hineinversetzen und üben, diese Standpunkte zu vertreten und ihre  "Überzeugungen" zu begründen (die zugewiesene Rolle berücksichtigt die  wirkliche Meinung der SuS nicht).
